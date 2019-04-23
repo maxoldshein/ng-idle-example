@@ -12,4 +12,4 @@ After you have installed all of the required dependencies, serve the application
 
 `ng serve --open`
 
-This will open a browser with the application running and you will be able to see how the code is utilizing the ng-idle library.I tried to add comments throughout the code to explain what is going on.
+This will open a browser with the application running and you will be able to see how the code is utilizing the ng-idle library. I tried to add comments throughout the code to explain what is going on.
