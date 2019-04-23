@@ -9,7 +9,7 @@ import { Idle, DEFAULT_INTERRUPTSOURCES } from '@ng-idle/core';
 })
 export class AppComponent {
   //After 5 minutes of being idle, the user is logged out completely.
-  totalIdleSeconds: number = 2.5 * 60;
+  totalIdleSeconds: number = 5 * 60;
   //We give the user 2 minutes of warning before they are logged out.
   idleTimeoutSeconds: number = 2 * 60;
   //The user is considered idle after 3 minutes, but they are logged out after 5 minutes of no activity.
