@@ -17,6 +17,7 @@ export class AppComponent {
 
   //This is a boolean to track whether or not the user is idle or not.
   //After 3 minutes of no interruption events, this flag will be set to true.
+  //Whenever there is an interrupt, we set this flag back to false because the user is no longer considered idle.
   isIdle: boolean = false;
 
   //Counters so that we can display the approximate time on the page.
