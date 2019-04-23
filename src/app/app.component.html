@@ -1,0 +1,29 @@
+<div class="content">
+  <h1 class="title">Ng-Idle Example</h1>
+  <p class="first">
+    This is an example of how to utilize the ng-idle framework. In this example, we are allowing the user 5 minutes of
+    total idleness, with a 'warning' that lasts for 2 minutes. After 3 minutes of no interruption events occuring, the user
+    will then become 'IDLE'. I have included the below indicators in an attempt to provide a visualization of what is going
+    on behind the scenes within the code itself.
+  </p>
+
+  <p *ngIf="!isIdle">
+    You are currently considered:
+    <br>
+    <b>NOT IDLE</b>
+  </p>
+
+  <p *ngIf="isIdle">
+    You are currently considered:
+    <br>
+    <b>IDLE</b>
+  </p>
+
+  <p>Last interruption occured <b>{{idleMinutes}} minute(s)</b> and <b>{{idleSeconds % 60}} second(s)</b> ago.</p>
+
+  <p>
+    The last interruption event that occured was:
+    <br>
+    <b>{{lastEvent}}</b>
+  </p>
+</div>
