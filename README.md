@@ -1,6 +1,6 @@
 This repository contains a very basic example of how to utilize the ng2-idle Angular 2 library. With this example, I tried to create a visualization of what is going on behind the scenes on the front-end of the application as well.
 
-To utilize this example, clone this repository to your local machine, cd to the directory where this project is stored, and run the following command:
+To utilize this example, clone this repository to your local machine, `cd` to the directory where this project is stored, and run the following command:
 
 `npm install`
 
